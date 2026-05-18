@@ -1,0 +1,11 @@
+1. Qual site você criou?   Criei o site de uma Cafeteria chamado "Coffee Dev".  
+
+2. Quais componentes você criou?   Criei 3 componentes principais: Header , Footer e Card.  
+
+3. Onde você reutilizou código?   O componente Card foi reutilizado 4 vezes na página principal para exibir diferentes produtos do cardápio , alterando suas informações através de props (foto, titulo e preco).  
+
+4. Onde utilizou useState?   O useState foi utilizado de duas formas:
+1. Dentro de cada Card para controlar o estado do botão "Curtir" de forma individual.
+2. No componente principal (App) para gerenciar a alternância entre o Modo Claro e Modo Escuro (Dark Mode).  
+
+5. Cite 5 motivos para usar React.  Componentização: Permite dividir a interface em pedaços independentes e reutilizáveis, facilitando a manutenção do código.Virtual DOM: Melhora significativamente a performance da aplicação ao atualizar apenas as partes da página que sofreram alterações.Grande Ecossistema e Comunidade: Possui uma vasta quantidade de bibliotecas prontas, suporte ativo e documentação rica.Sintaxe JSX: Facilita a escrita do código combinando HTML e JavaScript no mesmo lugar de forma intuitiva.Data Binding Unidirecional (Fluxo de dados de cima para baixo): Torna o código mais previsível, fácil de debugar e ideal para gerenciar estados complexos através de props.
