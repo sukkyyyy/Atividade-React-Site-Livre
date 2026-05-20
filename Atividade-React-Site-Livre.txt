@@ -1,0 +1,24 @@
+1. Que site você criou?
+
+Criei o -Coffee Dev-, o site de uma cafeteria pensado especialmente para quem gosta café e programação.
+
+2. Quais componentes você colocou a mão na massa para criar?
+
+Dividi a interface em 3 componentes principais pra organizar tudo: o **Header** (topo), o **Footer** (rodapé) e o **Card** (os cartões de produto).
+
+3. Onde roloooou reutilização de código?
+
+O queridinho da reutilização foi o componente **Card**. Usei ele 4 vezes na página principal para mostrar os produtos do cardápio. Em vez de duplicar código, só mudei as informações de cada um (foto, título e preço) passando via *props*. Bem mais limpo!
+
+4. Onde você usou o `useState`?
+Usei o `useState` em dois momentos bem estratégicos:
+
+No Card:** Para controlar o botão de "Curtir" de cada produto. Assim, quando o usuário curte um café, só aquele card muda, sem mexer nos outros.
+
+5. Diz aí: 5 motivos para amar (e usar) o React
+
+Componentes (tipo Lego):** Você divide o site em pedacinhos independentes. Fica infinitamente mais fácil de mexer e consertar depois.
+Virtual DOM (Super veloz):** O React é inteligente. Ele não recarrega a página inteira; só atualiza o pedacinho exato que mudou, deixando o site voando.
+Comunidade Gigante:** Tem biblioteca pronta para quase tudo, além de muita gente na internet ajudando a resolver qualquer erro que apareça.
+Sintaxe JSX:** Misturar HTML com JavaScript no mesmo lugar parece estranho no começo, mas depois você vê que é muito intuitivo e prático.
+luxo de dados de cima para baixo:** Como as informações viajam dos componentes pais para os filhos (via *props*), o código fica previsível e bem mais fácil de achar onde está o erro.
